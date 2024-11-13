@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifeguard Response Data</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .box {
+            width: 200px;
+            padding: 20px;
+            background-color: #fff;
+            border: 2px solid #0073e6;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .box h3 {
+            margin: 0 0 10px;
+            font-size: 18px;
+            color: #0073e6;
+        }
+        .box p {
+            font-size: 24px;
+            margin: 0;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box">
+        <h3>Number of Incidents</h3>
+        <p id="incidents">0</p> <!-- Replace '0' with Caspio calculated field -->
+    </div>
+    <div class="box">
+        <h3>Time of Lifeguard Recognition</h3>
+        <p id="recognitionTime">0</p> <!-- Replace '0' with Caspio calculated field -->
+    </div>
+    <div class="box">
+        <h3>Lifeguard Hesitation Time</h3>
+        <p id="hesitationTime">0</p> <!-- Replace '0' with Caspio calculated field -->
+    </div>
+    <div class="box">
+        <h3>Lifeguard Response Time</h3>
+        <p id="responseTime">0</p> <!-- Replace '0' with Caspio calculated field -->
+    </div>
+</div>
+
+</body>
+</html>
